@@ -59,3 +59,42 @@ tm.sleep(2) //esperando o tempo
 print('..')
 tm.sleep(2) // esperando o tempo 
 print('Ate a proxima')
+
+a31 2310
+salva arquivo, pacote util 
+colamos as funcoes
+
+def soma(a,b,c):
+    somatorio = a+b+b
+    return somatorio
+
+def mult(a,b,c):
+    produto = a*b*c
+    return produto
+
+def isPalindromo(string)
+    if string == string[::-1]:
+        return True
+    else:
+        return False
+
+em modulos 
+carregamos no jupyter ou no colab
+carregamos o arq e teremos o arquivo no diretorio
+depois importamos o util
+
+import util as ut //que é o modulo que criamos
+ut.soma(1,2,3) // modulo import e func soma
+ut.mult(3,2,2) // mod e func mult 
+ut.isPalindromo('abc') // mod e func isPalindromo
+ut.isPalindromo('abccba')
+t = 'abccba'
+t[::-1] // slice de traz p frente 
+t1 = 'abc'
+t1[::-1] 
+
+//incluimos essa funcao no util e temos que importar novamente
+def divisao(a,b): 
+    return a/b
+
+temos que reinicializar o ambiente para importar novamente
