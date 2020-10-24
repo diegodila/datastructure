@@ -1,0 +1,31 @@
+a29  
+modulos
+
+lib math
+import math
+
+math.sqrt(36)//raiz 
+math.sin(45) //seno
+math.cos(45) // coseno
+math.log(1000,10) //logaritimo
+math.log(32,2) 
+math.log(1000)
+math.e //euller
+math.pi //Pi
+
+lib datetime
+import datetime
+dir(datetime) --recursos 
+datetime.date.today() //dia 
+datetime.date.now() //agora
+data = datetime.date(2020,7,10)
+data
+data.day // dia 
+data.month // mes
+data.year // ano 
+
+horario = datetime.datetime(2020,7,10, 7, 30, 0)
+horario
+horario.hour //hora 
+horario.minute // minuto
+horario.second // segundos
