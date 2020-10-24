@@ -29,3 +29,33 @@ horario
 horario.hour //hora 
 horario.minute // minuto
 horario.second // segundos
+
+
+a30
+lib random 
+import random
+random.random() //gerando numeros aleatorios
+random.randint(1,10) // gerando numeros inteiros aleatorios
+random.randrange(0,10,2) // intervalo range
+random.randrange(0,10,3) // range 
+x = ['k','d',13,'34-j','x'] // lista
+x
+random.choice(x) //sortear os elementos de uma lista
+
+lib time 
+import time as tm
+tm.time() //valor do tempo
+antes = tm.time() // tempo atual 
+lista = []
+for i in range(0,1000):
+    lista.append(i)
+depois = tm.time()
+
+intervalo = depois - antes // tempo de exec 
+print(f'Tempo: {intervalo} 'segundos') 
+
+print('Finalizando')
+tm.sleep(2) //esperando o tempo 
+print('..')
+tm.sleep(2) // esperando o tempo 
+print('Ate a proxima')
