@@ -171,6 +171,35 @@ except IndexError:
 except KeyboardInterrupt:
     print('O usuário interrompeu a execução')
 
+
+a37-220121
+Manipulação de arquivos
+
+subir o arquivo para o diretorio
+with open('caminho_diretorio.txt') as tx:
+    for linha in tx:
+        print(linha)
+
+with open('caminho_diretorio.txt') as tx:
+    r = tex.readlines()
+    
+print(r)
+
+with open('texto2.txt','w') as texto:
+    texto.write('olá a todos')
+
+with open('caminhododiretorio/texto2.txt','r') as texto2:
+    for linha in texto2:
+        print(linha)
+
+
+
+
+
+
+
+
+
     
 
 
