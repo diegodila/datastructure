@@ -192,6 +192,21 @@ with open('caminhododiretorio/texto2.txt','r') as texto2:
     for linha in texto2:
         print(linha)
 
+Regular Expressions 
+Busca sofisticada por padroes 
+procurar todas as palavras que começam com letra maiuscula, ou que começam com letra maiuscula e terminam com letra minuscula 
+que começam com 'a' e terminam com 'e'
+procurar emails, numero de telefone, ceps, etc
+padroes de busca são ilimitados 
+
+tres funcoes 
+SEARCH - encontrar as posicoes de padroes dentro de uma string, se estes estiverem presentes 
+MATCH - se o começo de uma string é igual a um determinado padrão(metodo match)
+FINDALL - encontrar todas as substrings em uma string que correspondam a um padrão
+
+
+
+
 
 
 
