@@ -192,30 +192,78 @@ with open('caminhododiretorio/texto2.txt','r') as texto2:
     for linha in texto2:
         print(linha)
 
-Regular Expressions 
+a40-260121
+Regular Expressions
 Busca sofisticada por padroes 
 procurar todas as palavras que começam com letra maiuscula, ou que começam com letra maiuscula e terminam com letra minuscula 
 que começam com 'a' e terminam com 'e'
 procurar emails, numero de telefone, ceps, etc
 padroes de busca são ilimitados 
 
-tres funcoes 
-SEARCH - encontrar as posicoes de padroes dentro de uma string, se estes estiverem presentes 
+Tres funcoes 
+SEARCH - encontrar ou pesquisar as posicoes de padroes dentro de uma string, se estes estiverem presentes 
 MATCH - se o começo de uma string é igual a um determinado padrão(metodo match)
 FINDALL - encontrar todas as substrings em uma string que correspondam a um padrão
 
+.-qualquer caractere (exceto linha nova)
+\w - qualquer caractere alfanumerico
+\W - qualquer caractere não-alfanumerico
+\d - qualquer caractere que seja um digito(0-9)
+\D - qualquer caractere não digito
+\s - espaço em branco
+^ - começa com 
+$ - termina com 
+'\' - usado antes de metacaracteres para especificar seu significado literal 
+
+Quantificadores 
+permitem determinar como e quantas vezes os metacaracteres aparecem 
+
+[] - opcional entre os que estão dentro dos colchetes 
+() - captura grupos de caracteres 
+* - de zero a mais vezes 
+? - zero ou uma vez 
++ - uma ou mais vezes 
+{m,n} - de m a n vezes 
+| - ou 
+
+.gabrielcosta@hotmail.com
+.felipearruda@gmail.com
+.joaosilva@yahoo.com.br
+
+a41-260121
+
+Function search 
+import re 
+frase = 'Olá, meu numero de telefone é (42)0000-0000'
+re.search('\(\d{2}\)\d{4,5}-\d{4}', frase)
 
 
+frase = 'A placa de carro que eu anotei durante o acidente foi frt-1998'
+re.search('[A-Za-z]{3}-\d{4}', frase)
+
+email = 'Entre em contato, meu email é teste@teste.com'
+re.search('\w+@\w+\.com',email)
+
+Function match
+
+frase = 'A placa de carro que eu anotei durante o acidente foi FRT-1998'
+print(re.match('[A-Za-z]{3}-\d{4}', frase))
+
+frase2 = 'FRT-1998 é a placa do carro'
+print(re.match('[A-Za-z]{3}-\d{4}', frase2))
 
 
+Function findall
+frase3 = 'Meu número de telefone atual é (42)0000-0000. O número (56)1111-1111 é o antigo'
+re.search('\(\d{2}\)\d{4,5}-\d{4}', frase3)
 
+emails = '''Nome: Teste 1 
+emails: teste1@teste.com
+Nome: Teste 2 
+email: teste2@teste.com
+Nome: Teste 3 
+email: teste3@teste.com.br
 
-
-
-
-
-
-    
-
+re.findall('\w+@\w+\.\w*', emails)
 
 
