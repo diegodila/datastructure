@@ -24,3 +24,11 @@ class Car:
 carro = Car()
 carro.ligada = 3
 carro.ligada
+
+class Foo:
+    def __init__(self):
+        self.ligada = True
+        self.canal = 0
+
+f = Foo()
+f.ligada
