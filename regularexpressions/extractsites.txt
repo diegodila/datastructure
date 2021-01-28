@@ -1,0 +1,4 @@
+['http://www.pyregex.com/']
+['https://regex101.com/']
+['https://pyladies.com/']
+['https://brasil.pyladies.com/']
