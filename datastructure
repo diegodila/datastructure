@@ -301,15 +301,21 @@ t2.tipo()
 a47-030221
 
 class Studant: 
-    def __init__(self,name,grade1, grade2, mean):
-        self.nome = nome 
+    def __init__(self,name,grade1, grade2):
+        self.name = name 
         self.grade1 = grade1
         self.grade2 = grade2
-        self.mean = mean
+        self.mean = 0
 
     def mean_calculate(self):
         self.mean = (self.grade1 + self.grade2) / 2
         return self.mean
+   
+    def data_show(self):
+        print('Name: ',self.name)
+        print('Grade 1: ',self.grade1)
+        print('Grade 2: ',self.grade2)
+        print('Mean: ', self.mean)
 
     def result(self):
         if self.mean >= 6.0:
