@@ -298,4 +298,23 @@ print(t2.lado1,t2.lado2,t2.lado3,t2.base, t2.altura)
 t2.area()
 t2.tipo()
 
+a47-030221
+
+class Studant: 
+    def __init__(self,name,grade1, grade2, mean):
+        self.nome = nome 
+        self.grade1 = grade1
+        self.grade2 = grade2
+        self.mean = mean
+
+    def mean_calculate(self):
+        self.mean = (self.grade1 + self.grade2) / 2
+        return self.mean
+
+    def result(self):
+        if self.mean >= 6.0:
+            print('aprovado')
+        else:
+            print('reprovado')
+
 
