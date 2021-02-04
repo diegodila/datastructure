@@ -372,5 +372,5 @@ l = lista2()
 for i in l:
     print(i)
 
-
+%timeit list2()
 
