@@ -323,4 +323,20 @@ class Studant:
         else:
             print('reprovado')
 
+a48-030221
 
+function1
+def soma1(n):
+    soma = 0 
+    for i in range(n + 1)
+        soma += i 
+    
+    return soma 
+
+%timeit soma1(10)
+
+function2
+def soma2(n):
+    return (n * (n + 1)) / 2
+
+%timeit soma2(10)
