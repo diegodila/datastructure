@@ -6,7 +6,7 @@ n = np.linspace(1,10,100) #gerando numeros linearmente, ate 10. imprimindo 100 n
 
 len(n)
 
-labels = ['Constant', 'Logarithmic', 'Linear', 'log linear', 'Quadratic', 'Cubic', 'Exponential']
+labels = ['Constant', 'Logarithmic', 'Linear', 'Log linear', 'Quadratic', 'Cubic', 'Exponential']
 #simulação de funções e big o
 #np.ones() gera numero um, np.ones(100) gera cem numeros 1
 #np.log(n) aplica o logaritmo em n
