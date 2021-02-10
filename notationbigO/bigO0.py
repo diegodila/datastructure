@@ -7,14 +7,14 @@ def soma1(n):
         soma += i
     return soma 
 
-%timeit soma1(10) #gera time de exec
+timeit.timeit(soma1(10)) #gera time de exec
 
 #3 passos 
 #function2
 def soma2(n):
     return (n * (n + 1)) / 2
 
-%timeit soma2(10)
+timeit.timeit(soma2(10))
 
 # a complexidade do algoritmo aumenta com as entradas
 # comparativos entre os algoritmos, desempenho de cada uma

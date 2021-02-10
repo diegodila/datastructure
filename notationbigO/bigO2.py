@@ -8,7 +8,7 @@ def lista1():
 
 print(lista1()) #cria a lista quando chamamos a função
 len(lista1)
-%timeit lista1() # retorn 68.3 micros
+timeit.timeit(lista1()) # retorn 68.3 micros
 
 #function 4
 #já cria a lista automaticamente, sem ser manualmente, usando essa estrutura de dados 
@@ -21,4 +21,4 @@ l = lista2()
 for i in l:
     print(i)
 
-%timeit list2()
+timeit.timeit(lista2())
