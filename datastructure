@@ -422,3 +422,44 @@ plt.legend()
 plt.ylabel('Runtime')
 plt.xlabel('n')
 
+a52-100221
+VETORES NÃO ORDENADOS
+
+estrutura de dados para armazenar os dados
+verificar, pesquisa, remover (estrutura de dados)
+principais operacoes (inserção, remoção, pesquisa)
+
+INSERÇÃO
+4 | 2 | 1 | 8 | 5
+unico passo (inserido na primeira celula vaga do vetor)
+em geral o vetor tem tamanho (quantos elementos podem ser armazenados no vetor)
+o algoritmo ja conhece a localizacao onde vai fazer a inserção pois ele sabe quantos itens tem no vetor 
+o novo item é simplesmente inserido no proximo espaco disponivel 
+BIG-O O constante - O(1) notação para inserção 1 passo
+
+PESQUISA
+pesquisa linear, percorrer cada posiçao do vetor 
+item por item
+melhor caso seria encontrar o primeiro item de primeira (na primeira posicao)
+pior caso: encontrar o item na ultima posicao do vetor
+em média, metade dos itens devem ser examinados (N/2)
+big-O linear - O(n)
+
+EXCLUSÃO 
+remanejamos os valores do vetor, deslocando os valores
+primeiro fazemos uma pesquisa
+pesquisar uma média de N/2 elementos (pesquisa linear)
+pior caso:N
+depois remanejamos 
+mover os elementos restantes (N/2 passos)
+pior caso: N 
+big-O - O(2n) = O(n)
+deve-se decidir se itens com chaves duplicadas serão permitidos
+Exemplo de um arquivo de funcionarios
+se a chave for o registro 
+se a chave for o sobrenome
+Pesquisa: mesmo se encontrar o valor, o algoritmo terá que continuar procurando até a ultima célula (N passos)
+Inserção: verificar cada item antes de fazer uma inserção (N passos)
+Exclusão do primeiro item: N/2 comparações e N/2 movimentos
+
+
