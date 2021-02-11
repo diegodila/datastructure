@@ -461,5 +461,3 @@ se a chave for o sobrenome
 Pesquisa: mesmo se encontrar o valor, o algoritmo terá que continuar procurando até a ultima célula (N passos)
 Inserção: verificar cada item antes de fazer uma inserção (N passos)
 Exclusão do primeiro item: N/2 comparações e N/2 movimentos
-
-
