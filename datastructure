@@ -461,3 +461,11 @@ se a chave for o sobrenome
 Pesquisa: mesmo se encontrar o valor, o algoritmo terá que continuar procurando até a ultima célula (N passos)
 Inserção: verificar cada item antes de fazer uma inserção (N passos)
 Exclusão do primeiro item: N/2 comparações e N/2 movimentos
+quando fazemos uma remoção no meio 
+o final do vetor não é apagado, ele fica na memoria. É o que acontece com discos rigidos, por isso que é possivel recuperar os dados. Existem empresas que fazem recuperação dos dados.
+primeiro passo para fazer uma exclusão, é uma pesquisa 
+Big O de exclusão é: pesquisar um média de N/2 elementos (pesquisa linear)
+pior caso:N 
+mover os elementos restantes (n/2passos)
+pior caso:N 
+Big-O - O(2n) = O(n)
