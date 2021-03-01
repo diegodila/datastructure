@@ -29,7 +29,20 @@ class VetorNaoOrdenado:
                 return i
         return -1
 
+
+    def delete(self,valor):
+        position = self.search(valor)
+        if position == -1:
+            return -1
+        else:
+            for i in range(position, self.ultima_posicao):
+                self.valores[i] = self.valores[i + 1]
+
+            self.ultima_posicao -= 1
+
+
 vetor = VetorNaoOrdenado(5)
 vetor.prints()
 vetor.insert()
 vetor.search()
+vetor.delete()
