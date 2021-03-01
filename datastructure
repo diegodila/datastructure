@@ -510,3 +510,13 @@ a55-010321
                 return i
         return -1
 
+a56-010321
+    def delete(self,valor):
+        position = self.search(valor)
+        if position == -1:
+            return -1
+        else:
+            for i in range(position, self.ultima_posicao):
+                self.valores[i] = self.valores[i + 1]
+
+            self.ultima_posicao -= 1
