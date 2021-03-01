@@ -22,6 +22,14 @@ class VetorNaoOrdenado:
             self.ultima_posicao += 1
             self.valores[self.ultima_posicao] = valor
 
-vetor = VetorNaoOrdenado(5)
+    # O(n)
+    def search(self, valor):
+        for i in range(self.ultima_posicao + 1):
+            if valor == self.valores[i]:
+                return i
+        return -1
 
+vetor = VetorNaoOrdenado(5)
 vetor.prints()
+vetor.insert()
+vetor.search()
