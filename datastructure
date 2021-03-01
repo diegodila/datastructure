@@ -469,3 +469,24 @@ pior caso:N
 mover os elementos restantes (n/2passos)
 pior caso:N 
 Big-O - O(2n) = O(n)
+deve se decidir se itens com chves duplicados serão permitidos
+
+a53-250221
+import numpy as np
+
+class VetorNaoOrdenado:
+    def __init__(self, capacidade):
+        self.capacidade = capacidade
+        self.ultima_posicao = -1
+        self.valores = np.empty(self.capacidade, dtype=int)
+
+    def prints(self):
+        if self.ultima_posicao = -1:
+            print('O vetor está vazio')
+        else:
+            for i in range(self.ultima_posicao +1):
+                print(i,'-',self.valores[i])
+
+vetor = VetorNaoOrdenado(5)
+
+vetor.prints()
