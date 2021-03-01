@@ -501,3 +501,12 @@ a54-010321
             self.ultima_posicao += 1
             self.valores[self.ultima_posicao] = valor
 
+a55-010321
+    #function search 
+    # O(n)
+    def search(self, valor):
+        for i in range(self.ultima_posicao + 1):
+            if valor == self.valores[i]:
+                return i
+        return -1
+
