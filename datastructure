@@ -30,7 +30,7 @@ horario.hour //hora
 horario.minute // minuto
 horario.second // segundos
 
-
+-----------------------------------------------------
 a30
 lib random 
 import random
@@ -99,6 +99,7 @@ def divisao(a,b):
 
 temos que reinicializar o ambiente para importar novamente
 
+-----------------------------------------------------
 a34-210121
 
 Tratamento de erros e exceções
@@ -154,7 +155,7 @@ while True:
         print(f'Valor digitado é {p}')
         break 
 
-
+-----------------------------------------------------
 a36-210121
 
 lista = []
@@ -171,7 +172,7 @@ except IndexError:
 except KeyboardInterrupt:
     print('O usuário interrompeu a execução')
 
-
+-----------------------------------------------------
 a37-220121
 Manipulação de arquivos
 
@@ -192,6 +193,7 @@ with open('caminhododiretorio/texto2.txt','r') as texto2:
     for linha in texto2:
         print(linha)
 
+-----------------------------------------------------
 a40-260121
 Regular Expressions
 Busca sofisticada por padroes 
@@ -230,6 +232,7 @@ permitem determinar como e quantas vezes os metacaracteres aparecem
 .felipearruda@gmail.com
 .joaosilva@yahoo.com.br
 
+-----------------------------------------------------
 a41-260121
 
 Function search 
@@ -266,6 +269,7 @@ email: teste3@teste.com.br
 
 re.findall('\w+@\w+\.\w*', emails)
 
+-----------------------------------------------------
 a45-280121
 
 OO
@@ -298,6 +302,7 @@ print(t2.lado1,t2.lado2,t2.lado3,t2.base, t2.altura)
 t2.area()
 t2.tipo()
 
+-----------------------------------------------------
 a47-030221
 
 class Studant: 
@@ -323,6 +328,7 @@ class Studant:
         else:
             print('reprovado')
 
+-----------------------------------------------------
 a48-030221
 
 #11 passos
@@ -348,6 +354,7 @@ comparativos entre os algoritmos, desempenho de cada uma
 função1 temos uma notação O(n) # muda de acordo com os inputs que recebe 
 função2 temos uma notação O(3) # não muda de acordo com os inputs que recebe
 
+-----------------------------------------------------
 a49-040221
 
 #Function 3
@@ -374,6 +381,7 @@ for i in l:
 
 %timeit lista2()
 
+-----------------------------------------------------
 a50-080221
 #Funções big-O 
 
@@ -422,6 +430,7 @@ plt.legend()
 plt.ylabel('Runtime')
 plt.xlabel('n')
 
+-----------------------------------------------------
 a52-100221
 VETORES NÃO ORDENADOS
 
@@ -471,6 +480,7 @@ pior caso:N
 Big-O - O(2n) = O(n)
 deve se decidir se itens com chves duplicados serão permitidos
 
+-----------------------------------------------------
 a53-250221
 import numpy as np
 
@@ -492,6 +502,7 @@ vetor = VetorNaoOrdenado(5)
 
 vetor.prints()
 
+-----------------------------------------------------
 a54-010321
     # O(1) - O (2)
     def insert(self, valor):
@@ -501,6 +512,7 @@ a54-010321
             self.ultima_posicao += 1
             self.valores[self.ultima_posicao] = valor
 
+-----------------------------------------------------
 a55-010321
     #function search 
     # O(n)
@@ -510,6 +522,7 @@ a55-010321
                 return i
         return -1
 
+-----------------------------------------------------
 a56-010321
     def delete(self,valor):
         position = self.search(valor)
@@ -520,3 +533,39 @@ a56-010321
                 self.valores[i] = self.valores[i + 1]
 
             self.ultima_posicao -= 1
+
+-----------------------------------------------------
+A57
+-----------------------------------------------------
+A58
+-----------------------------------------------------
+A59
+-----------------------------------------------------
+A60
+-----------------------------------------------------
+A6
+-----------------------------------------------------
+A6
+-----------------------------------------------------
+A6
+-----------------------------------------------------
+A6
+-----------------------------------------------------
+A6
+-----------------------------------------------------
+A6
+-----------------------------------------------------
+A6
+-----------------------------------------------------
+A
+-----------------------------------------------------
+A
+-----------------------------------------------------
+A
+-----------------------------------------------------
+A
+-----------------------------------------------------
+A
+-----------------------------------------------------
+A
+-----------------------------------------------------
