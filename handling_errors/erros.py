@@ -29,7 +29,7 @@ while True:
         print('Valor inválido')
     else:
         print(f'Valor digitado é {n}')
-        break 
+        break
 
 while True:
     try:
