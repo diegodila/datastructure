@@ -1,7 +1,7 @@
 # Data Structure with Python
 <div align="center">
   <img height="300" width="200" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"/>
-  <img height="300" width="300" src="https://raw.githubusercontent.com/diegodila/design/main/icons/graphtree.svg"/>
+  <img height="280" width="300" src="https://raw.githubusercontent.com/diegodila/design/main/icons/graphtree.svg"/>
 </div>
   
 - Big-O notation for analyzing algorithms
