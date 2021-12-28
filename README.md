@@ -1,6 +1,10 @@
 # Data Structure with Python
-
-
+<div align="center">
+  <a href="https://github.com/diegodila">
+  <img height="300" width="200" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"/>
+  <img height="300" width="300" src="https://raw.githubusercontent.com/diegodila/design/main/icons/graphtree.svg"/>
+</div>
+  
 - Big-O notation for analyzing algorithms
 
 - Ordered and unordered vectors
