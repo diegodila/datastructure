@@ -28,3 +28,14 @@ print(f'Modulus div 5 % 2: {modulus_div}')
 #Exponentiation
 number_exp = 2**2
 print(f'Exp: {number_exp}')
+
+import math
+math.sqrt(81)
+cases = 34 
+cases_per = 34332
+cases_result = cases_per / cases
+print(cases_result)
+
+#round 
+print(f'{round(cases_result)}')
+print(f'{round(cases_result, 5)}')
